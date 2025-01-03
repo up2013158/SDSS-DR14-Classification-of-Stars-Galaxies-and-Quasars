@@ -103,7 +103,7 @@ Another important area of exploration is the choice of activation functions, whi
 - pandas==1.1.3
 - scikit-learn==0.23.2
 
-## Installation
+## Installation and Usage
 The repository can be cloned using:
 
 `git clone https://github.com/up2013158/SDSS-DR14-Classification-of-Stars-Galaxies-and-Quasars.git`
@@ -114,9 +114,33 @@ Users who want to clone the repository can also install the dependencies using p
 
 This command will install all the libraries listed in the dependencies.txt file, ensuring users have all necessary packages need to run the code.
 
-## Usage
-
 ## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the GNU General Public License v3.0. See the LICENSE file for more details.
+
+## References
+Acknowledgment for ChatGPT AI:
+- Tool Name: ChatGPT
+- Provider: OpenAI
+- Description: ChatGPT was used to assist in brainstorming, debugging, and generating portions of the codebase for this project.
+- Accessed via: https://openai.com/chatgpt
+
+Acknowledgment for Gemini AI:
+- Tool Name: Gemini AI
+- Provider: Google DeepMind
+- Description: Gemini AI was utilized to generate suggestions, optimize algorithms, and enhance the project's overall design.
+- Accessed via: Google Colab notebook integration.
+
+Acknowledgment for Claude AI:
+- Tool Name: Claude
+- Provider: Anthropic
+- Description: Claude was employed to generate, debug, and refine code for this project.
+- Accessed via: Visual Studio Code extension for Claude AI.
 
 ## Contact
+Samuel Helps
+
+samuel.helps.sh@gmail.com
+
+Physics, Astrophysics and Cosmology (Mphys)
+
+University of Portsmouth
