@@ -104,11 +104,7 @@ Another important area of exploration is the choice of activation functions, whi
 - scikit-learn==0.23.2
 
 ## Installation and Usage
-The repository can be cloned using:
-
-`git clone https://github.com/up2013158/SDSS-DR14-Classification-of-Stars-Galaxies-and-Quasars.git`
-
-Users who want to clone the repository can also install the dependencies using pip:
+Users who want to install the dependencies using pip:
 
 `!pip install -r dependencies.txt`
 
