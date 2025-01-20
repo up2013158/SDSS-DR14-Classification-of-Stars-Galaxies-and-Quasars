@@ -17,7 +17,7 @@ Q3. **Impact of Neural Network Factors:** We investigate how different factors (
 ### Tools and Technologies:
 - **Machine Learning:** Scikit-learn for traditional machine learning models.
 - **Deep Learning:** PyTorch for building the neural networks.
-- **Data Science:** Pandas and NumPy for data manipulation; Matplotlib for data visualization.
+- **Data Science:** Pandas and NumPy for data manipulation; Matplotlib for data visualisation.
 - **Python Dependencies:** A list of dependencies is provided in the `dependencies.txt` file.
 
 The project includes detailed tutorials for beginners (Q1 & Q2) and more advanced discussions for intermediate users (Q3), with a focus on addressing the reshearch quesion for NN optimisation.
@@ -94,13 +94,15 @@ Neural networks today are critical in AI, image recognition and language process
 - scikit-learn==0.23.2
 
 ## Installation and Usage
-Users who want to install the dependencies using pip:
+The repository can be cloned using:
+
+`git clone https://github.com/up2013158/SDSS-DR14-Classification-of-Stars-Galaxies-and-Quasars.git`
+
+Users who want to clone the repository can also install the dependencies using pip:
 
 `!pip install -r dependencies.txt`
 
 This command will install all the libraries listed in the dependencies.txt file, ensuring users have all necessary packages need to run the code.
-
-
 
 ## License
 This project is licensed under the GNU General Public License v3.0. See the LICENSE file for more details.
@@ -115,7 +117,7 @@ Acknowledgment for ChatGPT AI:
 Acknowledgment for Gemini AI:
 - Tool Name: Gemini AI
 - Provider: Google DeepMind
-- Description: Gemini AI was utilized to generate suggestions, optimize algorithms, and enhance the project's overall design.
+- Description: Gemini AI was utilised to generate suggestions, optimise algorithms, and enhance the project's overall design.
 - Accessed via: Google Colab notebook integration.
 
 Acknowledgment for Claude AI:
