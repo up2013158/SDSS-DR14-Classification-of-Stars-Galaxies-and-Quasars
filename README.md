@@ -2,7 +2,7 @@
 Classification of Stars, Galaxies and Quasars using Sloan Digital Sky Survey DR14
 
 ## Project Description
-The focus of this project is to compare the performance of a traditional machine learning (ML) technique with the performance of a modern neural network (NN) approach to solve a classification problem. Using a real-world dataset from SDSS, we explore how to build the different the models and analyse the factors that influence the success of training. As raw optical images of the stars, galaxies and quasars in the survey can appear visably similar as 'point sources' on the sky, it can prove diffcult to calssify the type of object being observed. Therefore, the testing and implementation of ML and NN techniques on a dataset like SDSS DR14 can a provide quick and effective method for object classification. The results from the ML and NN models can be compared to the `class` column in the dataset to evaulte the accuracy and limitations of each approach.
+The focus of this project is to compare the performance of a traditional machine learning (ML) technique with the performance of a modern neural network (NN) to solve a classification problem. Using a real-world dataset from SDSS, we explore how to build the different the models and analyse the factors that influence the success of training. As raw optical images of the stars, galaxies and quasars in the survey can appear visably similar as 'point sources' on the sky, it can prove diffcult to calssify the type of object being observed. Therefore, the testing and implementation of ML and NN techniques on a dataset like SDSS DR14 can a provide quick and effective method for object classification. The results from the ML and NN models can be compared to the `class` column in the dataset to evaulte the accuracy and limitations of each approach.
 
 The project is structured to answer three main questions:
 Q1. **Traditional Approach:** We apply a traditional machine learning algorithm (Decision Tree) to the dataset, explore how well the model performs and how its accuracy can be improved.
@@ -80,18 +80,13 @@ This specific dataset was obtained using a sample query from:
 | 1.23765e+18    | 184.151283 | 0.120943   | 18.951  | 17.540  | 16.986  | 16.698  | 16.322  | STAR   | -0.00007 |
 
 - The dataset includes observed magnitudes for the objects across multiple filter bands (`u`, `g`, `r`, `i`, `z`) and metadata for spectroscopic observations with corresponding redshift values.
-- Objects are also classified as either **STAR**, **GALAXY** or **QUASAR** which is the classification problem we tested our ML and NN models against.
+- Objects are also classified as either **STAR**, **GALAXY** or **QSO** which is the target column the ML and NN models are testest against.
 
 ### Why Traditional Approaches?
-Machine learning has evolved dramatically in recent years, and neural networks have become the go-to solution for many complex problems. However, traditional machine learning algorithms still have their place, especially when dealing with smaller datasets or problems that don’t require the complexity of deep learning models. In this project, we begin by applying a simple ('easy-to-implement') traditional machine learning method (Desicion Tree) to solve a classification problem. The goal is to establish how well can the traditional method handles the data, and what kind of performance can be expected from a simple model. We also examine the ease of implementation, interpretability, and speed of these models, which remain essential factors in certain scenarios.
+Machine learning has evolved dramatically in recent years, and neural networks have become the go-to solution for many computationlly complex problems. However, traditional machine learning algorithms still have their place, especially when dealing with smaller datasets or problems that don’t require the complexity of deep learning models. In this project, we begin by applying a simple ('easy-to-implement') traditional machine learning method (Desicion Tree) to solve a classification problem. The goal is to establish how well can the traditional method handles the data, and what kind of performance can be expected from a simple model. We also examine the ease of implementation, interpretability, and speed of these models, which remain essential factors in certain scenarios.
 
 ### Why Neural Networks?
-Neural networks today are critical in AI, image recognition and language processing. However, they are often require much more expertise to implement as well more training data and computational power to achieve optimal performance. The motivation for including a neural network in this project is to explore how well these models perform compared to traditional methods when solving the same classification problem. We are particularly interested in understanding how neural networks can overcome limitations that traditional approaches might struggle with, such as non-linear relationships, complex feature interactions, and scalability. We also investigate the impact of various factors like activation functions, data augmentation, and neural network architecture on model performance.
-
-### The Research Questions
-Our project also includes an exploration of key research questions to dive deeper into the nuances of neural network training and performance. These questions aim to understand how different choices — from hyperparameters to data handling — can affect the outcome of a neural network model. For example, data augmentation techniques have become popular in improving the performance of deep learning models, especially when working with limited datasets. We aim to explore how augmenting data can improve neural network performance and generalize to new, unseen data.
-
-Another important area of exploration is the choice of activation functions, which can significantly impact the way a neural network learns and performs. We will experiment with different activation functions to better understand their effects on model training, convergence, and final accuracy.
+Neural networks today are critical in AI, image recognition and language processing. However, they are often require much more expertise to implement as well more training data and computational power to achieve optimal performance. The motivation for including a neural network in this project is to explore how well these models perform compared to traditional methods when solving the same classification problem. We are particularly interested in understanding how neural networks can overcome limitations that traditional approaches might struggle with, such as non-linear relationships, complex feature interactions, scalability. We also investigate the impact of various factors of neural network architecture (Q3) on model performance.
 
 ## Dependencies
 - numpy==1.19.2
@@ -104,6 +99,8 @@ Users who want to install the dependencies using pip:
 `!pip install -r dependencies.txt`
 
 This command will install all the libraries listed in the dependencies.txt file, ensuring users have all necessary packages need to run the code.
+
+
 
 ## License
 This project is licensed under the GNU General Public License v3.0. See the LICENSE file for more details.
