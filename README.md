@@ -89,9 +89,13 @@ Machine learning has evolved dramatically in recent years, and neural networks h
 Neural networks today are critical in AI, image recognition and language processing. However, they are often require much more expertise to implement as well more training data and computational power to achieve optimal performance. The motivation for including a neural network in this project is to explore how well these models perform compared to traditional methods when solving the same classification problem. We are particularly interested in understanding how neural networks can overcome limitations that traditional approaches might struggle with, such as non-linear relationships, complex feature interactions, scalability. We also investigate the impact of various factors of neural network architecture (Q3) on model performance.
 
 ## Dependencies
-- numpy==1.19.2
-- pandas==1.1.3
-- scikit-learn==0.23.2
+- numpy==1.26.4
+- pandas==2.2.2
+- matplotlib==3.10.0
+- seaborn==0.13.2
+- scikit-learn==1.6.0
+- pytorch==2.5.1+cu121
+- torchvision==0.20.1+cu121
 
 ## Installation and Usage
 The repository can be cloned using:
