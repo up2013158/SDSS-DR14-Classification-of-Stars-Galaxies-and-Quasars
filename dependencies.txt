@@ -1,5 +1,7 @@
-pandas
-scikit-learn
-tensorflow
-matplotlib
 numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+pytorch
+torchvision
