@@ -2,9 +2,9 @@
 Classification of Stars, Galaxies and Quasars using Sloan Digital Sky Survey DR14
 
 ## Project Description
-The focus of this project is to compare the performance of a traditional machine learning (ML) technique with the performance of a modern neural network (NN) to solve a classification problem. Using a real-world dataset from SDSS, we explore how to build the different the models and analyse the factors that influence the success of training. As raw optical images of the stars, galaxies and quasars in the survey can appear visably similar as 'point sources' on the sky, it can prove diffcult to calssify the type of object being observed. Therefore, the testing and implementation of ML and NN techniques on a dataset like SDSS DR14 can a provide quick and effective method for object classification. The results from the ML and NN models can be compared to the `class` column in the dataset to evaulte the accuracy and limitations of each approach.
+The focus of this project is to compare the performance of a traditional machine learning (ML) technique with the performance of a modern neural network (NN) to solve a classification problem. Using a real-world dataset from SDSS, we explore how to build the different the models and analyse the factors that influence the success of training. As raw optical images of the stars, galaxies and quasars in the survey can appear visably similar as 'point sources' on the sky, it can prove diffcult to calssify the type of object being observed. Therefore, the testing and implementation of ML and NN techniques on a dataset like SDSS DR14 can a provide quick and effective method for object classification. The results from the ML and NN models can be compared to the `class` column in the dataset to evaulte (and validate) the accuracy and limitations of each approach.
 
-The project is structured to answer three main questions:
+The project is structured into three main componets:
 Q1. **Traditional Approach:** We apply a traditional machine learning algorithm (Decision Tree) to the dataset, explore how well the model performs and how its accuracy can be improved.
 Q2. **Traditional vs. Neural Network Approach:** We build and apply a PyTorch neural network to the dataset, comparing its performance to the traditional machine learning model.
 Q3. **Impact of Neural Network Factors:** We investigate how different factors (such as pre-training, batch sizes and epochs) affect the performance of the neural network.
@@ -20,7 +20,7 @@ Q3. **Impact of Neural Network Factors:** We investigate how different factors (
 - **Data Science:** Pandas and NumPy for data manipulation; Matplotlib for data visualisation.
 - **Python Dependencies:** A list of dependencies is provided in the `dependencies.txt` file.
 
-The project includes detailed tutorials for beginners (Q1 & Q2) and more advanced discussions for intermediate users (Q3), with a focus on addressing the reshearch quesion for NN optimisation.
+The project includes detailed tutorials for beginners (Q1 & Q2) and more advanced discussions for intermediate users (Q3), with a focus on addressing the reshearch question for NN optimisation.
 
 ## Dataset Overview
 This project provides a detailed exploration of astronomical data from the Sloan Digital Sky Survey (SDSS) Data Release 14 (DR14). The dataset consists of **10,000** observations of taken from the fourth phase of the Sloan Digital Sky Survey (SDSS-IV). Each observation is described by **17 feature columns** and **1 target column** that identifies the observation as being a **star**, **galaxy**, or **quasar**. The catalog includes object position in the sky (`ra` and `dec`), redshift (`z`) and the observed apparent magnitudes in each filter band, each are crital parameters to training the ML or NN classifiers. 
